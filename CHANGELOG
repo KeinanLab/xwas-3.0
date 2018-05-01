@@ -1,0 +1,34 @@
+5/1/2018 : XWAS v3.0 Released
+   * meta-analysis for females or males only (--meta-analysis + female / + male)
+   * visualization (qq, manhattan, genotyping clusters)
+   * genomic control (--gc)
+   * 0/1 and 0/2 in parallel (--multi-xchr-model)
+   * confidence intervals and standard errors (--ci)
+   * ggg bug fixes
+   * genotyping bug fixes and parallelization
+
+5/12/2017 : XWAS v2.0 Released
+   * BIRDSUITE genotyping
+   * genotyping comparisons
+   * check genome build and strand alignment
+
+10/1/2016 : XWAS v1.2 Quiet Release
+   * gene-based and gene-gene bug fixes
+   * option to run cartesian product of two genelists for the GGG method
+   * READMEs for examples
+   * QC pipeline flags
+
+5/10/2016: XWAS v1.1 Released
+   * improved QC
+   * imputation
+   * weighted regression test
+   * combining X-inactivation tests using Fisher's method and Stouffer's method
+   * Clayton's test
+   * modified epistasis test
+   * "--run-all" command
+   * gene-based test
+   * gene-based gene-gene interaction test
+
+7/15/2015 : Gene lists for chromosome X analyzed.
+
+5/8/2015 : XWAS v1.0 Released

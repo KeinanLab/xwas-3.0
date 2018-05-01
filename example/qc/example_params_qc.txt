@@ -1,0 +1,14 @@
+filename example_qc
+xwasloc ../../bin
+eigstratloc ../../bin
+excludexchrPCA	YES
+build 18
+alpha 0.05
+plinkformat bed
+exclind 0
+maf 0.005
+missindiv 0.1
+missgeno 0.1
+numpc 10
+related 0.125
+quant 0

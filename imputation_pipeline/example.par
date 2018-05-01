@@ -1,0 +1,26 @@
+# Explanation of each line:
+# FILE: name of pre-imputation PLINK files, WITHOUT EXTENSION!                      
+# OUTPUT: name of the output file
+# NJOBS: Number of jobs/parts. Please be aware that if you run the imputation pipeline in a local machine, running several parallel jobs can be very space- and memory-consuming!                                                    
+# BUILD: Build of the data (17 for hg17 and 18 for hg18)                                                          
+# FILELOC: location of the pre-imputation PLINK files                                
+# REFLOC: location of 1000G reference files (1000GP_Phase3_chrX_NONPAR.hap.gz, genetic_map_chrX_nonPAR_combined_b37.txt and 1000GP_Phase3_chrX_NONPAR.legend)                                         
+# TOOLSLOC: location of imputation tools (/imputation_tools for this package)                            
+# RESLOC1: intended location of the output files after step 1 (Please make sure that this folder exists)        
+# RESLOC2: intended location of the output files after step 2 (Please make sure that this folder exists)
+# FINALRESLOC: intended location of the final results (Please make sure that this folder exists)
+# MAFRULE: the population of the sample and the corresponding minor allele frequency for filtering out the sites in the 1000G reference file with a MAF <= this value in that population. The value must be one of: AFR.MAF (Africa), AMR.MAF (America), EAS.MAF (East Asia), EUR.MAF (European), SAS.MAF (South Asia), ALL.MAF (all above popuations together), combined with '<=VAL'. For example, if the sample is from European population and the minor allele frequency threshold is 0.005, the value will be 'EUR.MAF<=0.005'.
+# For file locations, make sure to include the whole path, including the ending /
+
+
+FILE: hapmap3_euro_all
+OUTPUT: hapmap3_chr23_imputed
+NJOBS: 31
+BUILD: 18
+FILELOC: example_X_loc/
+REFLOC: imputation_reference_files/
+TOOLSLOC: imputation_tools/
+RESLOC1: example_X_step1/
+RESLOC2: example_X_step2/
+FINALRESLOC: example_X_final/
+MAFRULE: EUR.MAF<=0.005

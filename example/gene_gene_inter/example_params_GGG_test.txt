@@ -1,0 +1,6 @@
+filename	example
+xwasloc	../../bin/
+genescriptloc	../../bin/
+genelistname	example_gene_test_list.txt
+buffer	0
+output	genepair_result.txt

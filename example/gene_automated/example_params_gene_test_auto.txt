@@ -1,0 +1,6 @@
+filename	example2
+xwasloc	../../bin/
+genescriptloc	../../bin/
+genelistname	gene_list.txt
+pvfolder	./
+buffer	0

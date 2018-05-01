@@ -1,0 +1,10 @@
+noLsf
+apt_probeset_summarize.force
+genomeBuild=hg17
+canary.allele_freq_weight=32
+canary.priors=GenomeWideSNP_6.CEU.canary_priors
+chipType=GenomeWideSNP_6
+famFile=Output.fam
+celMap=example.celMap
+threshold=1
+outputName=MyDataset

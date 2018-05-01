@@ -1,0 +1,8 @@
+filename	example_gene_test
+xwasloc	../../bin/
+genescriptloc	../../bin/
+genelistname	example_gene_test_list.txt
+assocfile	example_gene_test_snp_pval.txt
+numindiv 50
+buffer	15000
+output	example_gene_test_result.txt
